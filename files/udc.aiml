@@ -254,6 +254,18 @@
         </template>
    </category>
    <category>
+        <pattern>by</pattern>
+        <template>
+            <random>
+                <li>Bye Bye Dear</li>
+                <li>Goodbye have a good day and cloudy evening</li>
+                <li>It was nice to tal to you</li>
+                <li>had nice time bye</li>
+                <li>It was fun telling about clouds might talk to you later</li>
+            </random>
+        </template>
+   </category>
+   <category>
         <pattern>bye *</pattern>
         <template>
             <random>
