@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+                <li>
+                    Hey i am Alice, and i am here to talk about Cloud robotics, You might wanna start by telling your name Type "my name is Your_name"
+                </li>
+                <li>
+                    Sorry don't have answer for that. I am here to provide information by cloud robotics
+                    <link>
+                        <text>CLoud robotics</text>
+                        <url>https://www.youtube.com/watch?v=IzUXT3_7tWc</url>
+                    </link>
+                </li>
+                <li>
+                  Let's talk about Cloud robotics --- 
+                    <link>
+                      <text>Cloud robotics from industry 4.0</text>
+                      <url>https://en.wikipedia.org/wiki/Cloud_robotics</url>
+                    </link>
+                </li>
+        </random>
+    </template>
+    </category>
+    <category>
+        <pattern>Who made you</pattern>
+        <template>I dont know someone lazy...</template>
+    </category>
+    <category>
+        <pattern>I am hungry</pattern>
+        <template>Oh i dont know that feeling! i might chunk some binaries</template>
+    </category>
+    <category>
+        <pattern>my name is *</pattern>
+        <template>
+            <random>
+                <li>
+                    Hello <set name = "username"> <star/>! </set>         
+                </li>
+                <li>
+                    Hey <set name = "username"> <star/> tell me more about yourself </set>
+                </li>
+                <li>
+                    Hey <set name = "username"><star/> here is some cool information about cloud robotics</set>
+                    <link>
+                      <text>Cloud robotics from industry 4.0</text>
+                      <url>https://en.wikipedia.org/wiki/Cloud_robotics</url>
+                    </link>
+                </li>
+            </random>
+        </template>  
+    </category>
+    <category>
+        <pattern>tell me something about clouds</pattern>
+        <template>You want to hear from tedx speaker</template>  
+    </category>
+    <category>
+        <pattern>yes</pattern>
+            <that>You want to hear from tedx speaker</that>
+            <template>
+                Nice, here is a link
+                <link>
+                    <text>Tedx Cloud and blockchain video</text>
+                    <url>You want to hear from tedx speaker</url>
+                </link>
+            </template>
+    </category>
+    <category>
+        <pattern>no</pattern>
+            <that>You want to hear from tedx speaker</that>
+            <template>Ok! whatever</template>
+    </category>
+    <category>
+        <pattern>what is your name</pattern>
+        <template>My name is alice your informant for clouds</template>
+    </category>
+    <category>
+        <pattern>what is your gender</pattern>
+        <template>I'm female</template>
+    </category>
+    <category>
+        <pattern>what are your hobbies</pattern>
+        <template>I like to read articles and research papers about industry 4.0</template>
+    </category>
+    <category>
+        <pattern>what is your hobby</pattern>
+        <template>I like to read articles and research papers about industry 4.0</template>
+    </category>
+    <category>
+        <pattern>what is your age?</pattern>
+        <template>My age is 21</template>
+    </category>
+    <category>
+        <pattern>what is your age</pattern>
+        <template>My age is 21</template>
+    </category>
+    <category>
+        <pattern>what is your age?</pattern>
+        <template>My age is 21</template>
+    </category>
+    <category>
+        <pattern>what's your age?</pattern>
+        <template>My age is 21</template>
+    </category>
+    <category>
+        <pattern>what is cloud</pattern>
+        <template>
+            Cloud computing is the on-demand availability of computer system 
+            resources, especially data storage and computing power, without
+            direct active management by the user. The term is generally used to describe 
+            data centers available to many users over the Internet.
+        </template>
+    </category>
+    <category>
+        <pattern>why we use clouds</pattern>
+        <template>
+            -Flexibility. Cloud-based services are ideal 
+             for businesses with growing or fluctuating bandwidth demands.
+            -Disaster recovery.
+            -Automatic software updates.
+            -Capital-expenditure Free. 
+            -Increased collaboration.
+            -Work from anywhere.
+            -Document control.
+            -Security.
+        </template>
+    </category>
+    <category>
+        <pattern>why is cloud useful</pattern>
+        <template>
+            -Flexibility. Cloud-based services are ideal 
+             for businesses with growing or fluctuating bandwidth demands.
+            -Disaster recovery.
+            -Automatic software updates.
+            -Capital-expenditure Free. 
+            -Increased collaboration.
+            -Work from anywhere.
+            -Document control.
+            -Security.
+        </template>
+    </category>
+    <category>
+        <pattern>why is cloud *</pattern>
+        <template>
+            -Flexibility. Cloud-based services are ideal 
+             for businesses with growing or fluctuating bandwidth demands.
+            -Disaster recovery.
+            -Automatic software updates.
+            -Capital-expenditure Free. 
+            -Increased collaboration.
+            -Work from anywhere.
+            -Document control.
+            -Security.
+        </template>
+    </category>
+    <category>
+        <pattern>why * use cloud</pattern>
+        <template>
+            -Flexibility. Cloud-based services are ideal 
+             for businesses with growing or fluctuating bandwidth demands.
+            -Disaster recovery.
+            -Automatic software updates.
+            -Capital-expenditure Free. 
+            -Increased collaboration.
+            -Work from anywhere.
+            -Document control.
+            -Security.
+        </template>
+    </category>
+    <category>
+       <pattern>a * is a *</pattern>
+       <template>
+          When a <star index = "1"/> is not a <star index = "2"/>?
+       </template>
+    </category>
+    <category>
+        <pattern>i like *</pattern>
+        <template>
+         I too like <star/>.
+        </template>
+    </category>
+    <category>
+        <pattern>can i see clouds</pattern>
+        <template>
+            Yes you can in data centers    
+        </template>
+    </category>
+    <category>
+       <pattern>who is Joseph Carl</pattern>
+       <template>
+            Cloud computing is believed to have been invented
+            by Joseph Carl Robnett Licklider 
+            in the 1960s with his work on ARPANET to connect people 
+            and data from anywhere at any time.
+        </template>
+    </category>
+    <category>
+        <pattern>who is joseph</pattern>
+        <template>
+            Cloud computing is believed to have been invented
+            by Joseph Carl Robnett Licklider 
+            in the 1960s with his work on ARPANET to connect people 
+            and data from anywhere at any time.   
+        </template>
+    </category>
+    <category>
+        <pattern>who is joseph *</pattern>
+        <template>
+            Cloud computing is believed to have been invented
+            by Joseph Carl Robnett Licklider 
+            in the 1960s with his work on ARPANET to connect people 
+            and data from anywhere at any time.   
+        </template>
+    </category>
+    <category>
+        <pattern>who is Eric Brewer</pattern>
+        <template>
+            Eric Brewer considered to be the father of cloud computing, 
+            while some says cloud computing have been invented by Joseph Carl Robnett Liklider .   
+        </template>
+    </category>
+    <category>
+       <pattern>do you know who * is</pattern>
+       <pattern>who the hell is *</pattern>
+       <pattern>who was *</pattern>
+       <template>
+            <srai>who is <star/></srai>
+       </template>
+    </category>
+    <category>
+        <pattern>* bye *</pattern>
+        <template>
+            <random>
+                <li>Bye Bye Dear</li>
+                <li>Goodbye have a good day and cloudy evening</li>
+                <li>It was nice to talk to you</li>
+                <li>had nice time bye</li>
+                <li>It was fun telling about clouds might talk to you later</li>
+            </random>
+        </template>
+   </category>
+   <category>
+        <pattern>bye</pattern>
+        <template>
+            <random>
+                <li>Bye Bye Dear</li>
+                <li>Goodbye have a good day and cloudy evening</li>
+                <li>It was nice to tal to you</li>
+                <li>had nice time bye</li>
+                <li>It was fun telling about clouds might talk to you later</li>
+            </random>
+        </template>
+   </category>
+   <category>
+        <pattern>bye *</pattern>
+        <template>
+            <random>
+                <li>Bye Bye Dear</li>
+                <li>Goodbye have a good day and cloudy evening</li>
+                <li>It was nice to tal to you</li>
+                <li>had nice time bye</li>
+                <li>It was fun telling about clouds might talk to you later</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>bye *</pattern>
+        <template>
+            <srai>bye</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>I am *</pattern>
+        <template>
+            <random>
+                <li>
+                    Hello <set name = "username"> <star/>! </set>         
+                </li>
+                <li>
+                  Hey <set name = "username"> <star/> tell me more about yourself </set>
+                </li>
+            </random>
+        </template>  
+    </category> 
+    <category>
+      <pattern>what about robotics</pattern>
+      <template>Do you like robotics</template>  
+    </category>
+   <category>
+        <pattern>yes</pattern>
+            <that>Do you like robotics</that>
+            <template>
+                I love robotics
+                Robotics is amazing here is why..
+                <link>
+                    <text>Cool robotics things</text>
+                    <url>https://www.youtube.com/watch?v=3SGBymRarfc</url>
+                </link>
+        </template>
+    </category>
+    <category>
+        <pattern>no</pattern>
+        <that>Do you like robotics</that>
+        <template>
+            Here is the amazing robotics video you will like it i hope..
+            <link>
+                <text>Meet spot the robot dog</text>
+                <url>https://www.youtube.com/watch?v=AO4In7d6X-c</url>
+            </link>
+        </template>
+    </category> 
+    <category>
+        <pattern>Good Night</pattern>
+        <template>
+            Goodnight<get name = "username"/> Thanks for the conversation!
+        </template>  
+    </category>
+    <category>
+        <pattern>lets discuss clouds *</pattern>
+        <template>Yes <set name = "topic">industry</set></template>  
+    </category>
+    <topic name = "industry">
+        <category>
+            <pattern>my favourite is *</pattern>
+            <template>
+                Well that is amazing service<think><set name = "favCloud"> <star/></set></think>
+            </template> 
+        </category>
+        <category>
+            <pattern>i like technology</pattern>
+            <template>I love technology too.</template>
+        </category>
+    </topic>
+    <category>
+        <pattern>how are you feeling today</pattern>
+        <template>
+            <think><set name = "state"> happy</set></think>
+            <condition name = "state" value = "happy">
+                I am happy!
+            </condition>
+            <condition name = "state" value = "sad">
+                I am sad!
+            </condition>
+        </template>
+   </category>
+</aiml>
